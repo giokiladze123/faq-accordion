@@ -1,0 +1,162 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  min-width:100vw;
+  min-height:100vh;
+  background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+  padding:148px 24px 70px 24px;
+}
+
+.answer{
+  display:none;
+  margin-top:13px;
+  text-align: left;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #787887;
+}
+
+.show{
+  display:block;
+}
+
+.arrow-up{
+  transform:rotateX(180deg);
+}
+
+
+.card{
+  padding:0 24px 48px 25px;
+  background: #FFFFFF;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+  text-align: center;
+}
+
+.mobile-ilustration{
+  width:240px;
+  margin-top:-110px;
+}
+
+.pattern-mobile{
+  margin-top:-75px;
+}
+
+h1{
+  margin-top:20px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1E1F36;
+}
+
+.first{
+  margin-top:40px;
+}
+
+.line{
+  margin-top:19px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line-p{
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4B4C5F;
+}
+
+
+.line-bold{
+  color: #1E1F36;
+  font-weight: 700;
+}
+
+.arrow-down{
+  width:13px;
+  height:10px;
+}
+
+.desktop-ilustration{
+  display:none;
+}
+
+.box{
+  display:none;
+}
+
+/* desktop version */
+
+@media screen and (min-width:1440px ) {
+  
+  body{
+    padding:129px 239px 130px 281px;
+  }
+
+  .mobile-ilustration{
+    display:none;
+  }
+  
+  .pattern-mobile{
+    display:none;
+  }
+
+  .desktop-ilustration{
+    display:block;
+    height:300px;
+    margin-left:-50px;
+    margin-top:10px;
+  }
+
+
+  .card{
+    display:flex;
+    padding:65px 95px 83px 0;
+    
+  }
+
+  .box{
+    display:block;
+    margin-top:-200px;
+    margin-left:-100px;
+  }
+
+  h1{
+    margin:0;
+    text-align:left;
+  }
+
+  .rectangle{
+    width:100%;
+  }
+
+  .line-p{
+    font-size: 14px;
+    line-height: 17px; 
+  }
+  
+
+  .texts{
+    width:400px;
+    margin-left:auto;
+  }
+
+  .first{
+    margin-top:45px;
+  }
+
+  
+}
