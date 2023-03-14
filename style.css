@@ -142,6 +142,10 @@ h1{
   .rectangle{
     width:100%;
   }
+  
+  .line{
+    justify-content: space-between;
+  }
 
   .line-p{
     font-size: 14px;
